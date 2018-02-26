@@ -27,18 +27,19 @@ you can copy to your $HOME or make a symbolic link to the script.
 
 have fun :-)
 
-# Plugin 
-1. pathogen.vim
-manage your runtimepath
+### Plugin 
 
-2. ctrlp.vim
-For search files.
+	1. pathogen.vim
+	manage your runtimepath
 
-3. molokai
-color scheme
+	2. ctrlp.vim
+	For search files.
 
-4. syntastic
-Syntax checking hacks for vim
+	3. molokai
+	color scheme
 
-5. vim-airline and vim-airline-themes
-lean & mean status/tabline for vim that's light as air
+	4. syntastic
+	Syntax checking hacks for vim
+
+	5. vim-airline and vim-airline-themes
+	lean & mean status/tabline for vim that's light as air
