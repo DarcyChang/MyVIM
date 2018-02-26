@@ -1,4 +1,5 @@
 # These files copy from andrewintw's skel-home
+https://github.com/andrewintw
 a auto-config skeleton for set up your $HOME directory
 
 ## Installation
@@ -59,3 +60,6 @@ have fun :-)
 	:cs find f {name} : 尋找檔案
 	:cs find i {name} : 尋找include此檔案的檔案
 	:cs find d {name} : 尋找name裡面使用到的函式
+
+	Reference:
+	http://ivan7645.github.io/2016/07/12/vim_to_si/
