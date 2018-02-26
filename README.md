@@ -1,11 +1,11 @@
-# skel-home
+# These files copy from andrewintw's skel-home
 a auto-config skeleton for set up your $HOME directory
 
 ## Installation
 
-clone the project to your $HOME top and rename to .$USER (ex: ~/.andrew )
+clone the project to your $HOME top and rename to .$USER (ex: ~/.darcy )
 
-	$ git clone https://github.com/andrewintw/skel-home.git ~/.$USER
+	$ git clone https://github.com/DarcyChang/MyVIM.git ~/.$USER
 
 	$ cd ~/.$USER
 	$ ./init_setup.sh
