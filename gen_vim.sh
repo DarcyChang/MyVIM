@@ -20,6 +20,21 @@ print_info "install vim-airline"
 git clone -q https://github.com/vim-airline/vim-airline.git    vim/bundle/vim-airline
 git clone -q https://github.com/vim-airline/vim-airline-themes vim/bundle/vim-airline-themes
 
+print_info "install OmniCppComplete"
+git clone -q https://github.com/vim-scripts/OmniCppComplete.git    vim/bundle/omnicppcomplete
+
+print_info "install acp"
+git clone -q https://github.com/vim-scripts/AutoComplPop.git    vim/bundle/acp
+
+#print_info "install universal-ctags"
+#git clone -q https://github.com/universal-ctags/ctags.git    vim/bundle/universal-ctags
+
+print_info "install exuberant-ctags"
+git clone -q https://github.com/rentalcustard/exuberant-ctags.git    vim/bundle/exuberant-ctags
+
+print_info "install cscope"
+git clone -q https://github.com/vim-scripts/cscope.vim.git    vim/bundle/cscope
+
 print_info "install taglist"
 mkdir -p vim/bundle/taglist_46 && \
 unzip -qq pkgs/taglist_46.zip -d vim/bundle/taglist_46 && \

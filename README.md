@@ -46,6 +46,13 @@ have fun :-)
 	5. vim-airline and vim-airline-themes
 	lean & mean status/tabline for vim that's light as air
 
+	6. AutoComplPop
+	Complete string
+
+	7. OmniCppComplete, universal-ctags, exuberant-ctags, cscope
+	Doesn't work.
+
+
 ### cscope usage
 
 	其中最後的nmap部分為快捷鍵，其中的第一行指的是可使用zs取代在vim裡輸入:cs find s {name}的指令，後面依此類拖
