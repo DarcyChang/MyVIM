@@ -13,6 +13,7 @@ clone the project to your $HOME top and rename to .$USER (ex: ~/.darcy )
 	$ ./init_setup.sh
 	$ ./gen_vim.sh
 	$ ./gen_links.sh
+	$ sudo apt-get install cscope ctags
 
 ### optional
 
@@ -28,6 +29,15 @@ and there are some useful scripts in ~/.$USER/scripts folder.
 you can copy to your $HOME or make a symbolic link to the script.
 
 have fun :-)
+
+sudo ln -s ~/.$USER/scripts/ansi_color_256.sh /usr/bin/ansi_color_256.sh
+sudo ln -s ~/.$USER/scripts/drop_caches.sh /usr/bin/drop_caches.sh
+sudo ln -s ~/.$USER/scripts/findtypef.sh /usr/bin/findtypef.sh
+sudo ln -s ~/.$USER/scripts/indent_style.sh /usr/bin/indent_style.sh
+sudo ln -s ~/.$USER/scripts/myfind.sh /usr/bin/myfind.sh
+sudo ln -s ~/.$USER/scripts/synergyc.sh /usr/bin/synergyc.sh
+sudo ln -s ~/.$USER/scripts/vncservice.sh /usr/bin/vncservice.sh
+sudo ln -s ~/.$USER/scripts/gen_ctags.sh /usr/bin/gen_ctags.sh
 
 ### Plugin 
 
@@ -54,6 +64,8 @@ have fun :-)
 
 
 ### cscope usage
+
+	$ cd /SDK/path && cscope -Rbqk
 
 	其中最後的nmap部分為快捷鍵，其中的第一行指的是可使用zs取代在vim裡輸入:cs find s {name}的指令，後面依此類拖
 	官網給的設定檔快捷鍵為Ctrl+/+s的組合，不過我是用VIM7.4，對於三個以上的組合鍵似乎有使用上的問題，這部分還沒找到解決方式，因此就先用兩個的組合鍵
